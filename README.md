@@ -4,11 +4,13 @@ CubeDesk 是一款智能魔方应用，提供 Windows 桌面版和 Android 手�
 
 ## Android 手机版下载
 
-[下载 CubeDesk Android 第一版 · v0.1.12](https://github.com/Jay6668/CubeDesk-Releases/releases/tag/android-v0.1.12)
+[下载 CubeDesk Android · v0.1.13](https://github.com/Jay6668/CubeDesk-Releases/releases/tag/android-v0.1.13)
 
-选择 `CubeDesk-Android-0.1.12.apk`。支持 Android 8.0 及以上（arm64-v8a / x86_64）；连接智能魔方需要蓝牙。手机版支持横竖屏，不包含开发板控制功能。
+选择 `CubeDesk-Android-0.1.13.apk`。支持 Android 8.0 及以上（arm64-v8a / x86_64）；连接智能魔方需要蓝牙。手机版支持横竖屏，不包含开发板控制功能。
 
-已有旧版请直接覆盖安装；不要先卸载或清除数据。建议更新前通过设置导出备份。该版本已在 vivo X100 / Android 16 实机验证，应用内版本号为 `0.1.12-preview`。
+已有旧版请直接覆盖安装；不要先卸载或清除数据。建议更新前通过设置导出备份。该版本已在 vivo X100 / Android 16 实机验证，应用内版本号为 `0.1.13-preview`。
+
+本次 0.1.13 修复系统锁定竖屏后应用仍自动旋转的问题，已由用户安装确认。
 
 ## Windows 桌面版下载
 
