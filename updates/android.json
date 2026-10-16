@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "platform": "android",
+  "version": "0.1.15",
+  "tag": "android-v0.1.15",
+  "downloadUrl": "https://github.com/Jay6668/CubeDesk-Releases/releases/download/android-v0.1.15/CubeDesk-Android-0.1.15.apk",
+  "sha256": "52d114cbcafb3b2ea6ce04187a3282ef25033dd411465ea3f0a183675b24f1d6",
+  "size": 118908950,
+  "notes": [
+    "新增 GAN Gen1/2/3/4、奇艺/Tornado V4、计客/Mi Smart、GoCube/Rubik’s Connected、MoYu MHC 协议适配，现有 MoYu32 驱动保留。",
+    "新增协议为实验性支持；已通过离线校验与公开抓包回放，尚无对应型号实机验收。",
+    "加入可关闭的启动后台更新检查，电脑和安卓独立判断版本；离线使用不受影响。"
+  ],
+  "versionCode": 16
+}

@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "platform": "windows",
+  "version": "0.23.0",
+  "tag": "v0.23.0",
+  "downloadUrl": "https://github.com/Jay6668/CubeDesk-Releases/releases/download/v0.23.0/CubeDesk-0.23.0-Windows-x64.exe",
+  "sha256": "497a281e532e6f1cc9b4918dd62e3892126817affb40174a20e3e7fe2a70b047",
+  "size": 98711428,
+  "notes": [
+    "新增 GAN Gen1/2/3/4、奇艺/Tornado V4、计客/Mi Smart、GoCube/Rubik’s Connected、MoYu MHC 协议适配，现有 MoYu32 驱动保留。",
+    "新增协议为实验性支持；已通过离线校验与公开抓包回放，尚无对应型号实机验收。",
+    "加入可关闭的启动后台更新检查，电脑和安卓独立判断版本；离线使用不受影响。"
+  ]
+}
