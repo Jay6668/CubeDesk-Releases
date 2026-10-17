@@ -1,15 +1,21 @@
 {
   "schema": 1,
   "platform": "android",
-  "version": "0.1.15",
-  "tag": "android-v0.1.15",
-  "downloadUrl": "https://github.com/Jay6668/CubeDesk-Releases/releases/download/android-v0.1.15/CubeDesk-Android-0.1.15.apk",
-  "sha256": "52d114cbcafb3b2ea6ce04187a3282ef25033dd411465ea3f0a183675b24f1d6",
-  "size": 118908950,
+  "version": "0.1.16",
+  "tag": "android-v0.1.16",
+  "downloadUrl": "https://github.com/Jay6668/CubeDesk-Releases/releases/download/android-v0.1.16/CubeDesk-Android-0.1.16.apk",
+  "sha256": "10cf9cd92750f41b14f67c43c8908a1be441ffa45bd9cc98bbe18189e670f943",
+  "size": 118909918,
   "notes": [
-    "新增 GAN Gen1/2/3/4、奇艺/Tornado V4、计客/Mi Smart、GoCube/Rubik’s Connected、MoYu MHC 协议适配，现有 MoYu32 驱动保留。",
-    "新增协议为实验性支持；已通过离线校验与公开抓包回放，尚无对应型号实机验收。",
-    "加入可关闭的启动后台更新检查，电脑和安卓独立判断版本；离线使用不受影响。"
+    "新增国内版本源优先和 GitHub 备用，改善国内网络下的更新检查。",
+    "设置中新增夸克手动下载入口、提取码和文件名说明；离线功能仍可正常使用。",
+    "保留上一版多品牌智能魔方实验性支持；本次未进行手机或新型号实物验收。"
   ],
-  "versionCode": 16
+  "versionCode": 17,
+  "domesticDownload": {
+    "url": "https://pan.quark.cn/s/88e2650d3fa8",
+    "code": "4bdt",
+    "filename": "CubeDesk-Android-0.1.16.apk",
+    "folder": "10.17 更新：国内更新支持（安卓0.1.16 电脑0.23.1） / 手机版（安卓)"
+  }
 }

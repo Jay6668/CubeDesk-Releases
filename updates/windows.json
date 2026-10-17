@@ -1,14 +1,20 @@
 {
   "schema": 1,
   "platform": "windows",
-  "version": "0.23.0",
-  "tag": "v0.23.0",
-  "downloadUrl": "https://github.com/Jay6668/CubeDesk-Releases/releases/download/v0.23.0/CubeDesk-0.23.0-Windows-x64.exe",
-  "sha256": "497a281e532e6f1cc9b4918dd62e3892126817affb40174a20e3e7fe2a70b047",
-  "size": 98711428,
+  "version": "0.23.1",
+  "tag": "v0.23.1",
+  "downloadUrl": "https://github.com/Jay6668/CubeDesk-Releases/releases/download/v0.23.1/CubeDesk-0.23.1-Windows-x64.exe",
+  "sha256": "04cf4ddde6c38051d16f88c2a95589c08bb632722f7361f0dfa5cc67481cc345",
+  "size": 98717299,
   "notes": [
-    "新增 GAN Gen1/2/3/4、奇艺/Tornado V4、计客/Mi Smart、GoCube/Rubik’s Connected、MoYu MHC 协议适配，现有 MoYu32 驱动保留。",
-    "新增协议为实验性支持；已通过离线校验与公开抓包回放，尚无对应型号实机验收。",
-    "加入可关闭的启动后台更新检查，电脑和安卓独立判断版本；离线使用不受影响。"
-  ]
+    "新增国内版本源优先和 GitHub 备用，改善国内网络下的更新检查。",
+    "设置中新增夸克手动下载入口、提取码和文件名说明；离线功能仍可正常使用。",
+    "保留上一版多品牌智能魔方实验性支持；本次未进行手机或新型号实物验收。"
+  ],
+  "domesticDownload": {
+    "url": "https://pan.quark.cn/s/88e2650d3fa8",
+    "code": "4bdt",
+    "filename": "CubeDesk-0.23.1-Windows-x64.exe",
+    "folder": "10.17 更新：国内更新支持（安卓0.1.16 电脑0.23.1） / 电脑版（windows ）"
+  }
 }

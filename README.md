@@ -4,17 +4,17 @@ CubeDesk 是一款智能魔方应用，提供 Windows 和 Android 版本，支�
 
 ## Android 手机版下载
 
-[下载 CubeDesk Android 0.1.15](https://github.com/Jay6668/CubeDesk-Releases/releases/tag/android-v0.1.15)
+[下载 CubeDesk Android 0.1.16](https://github.com/Jay6668/CubeDesk-Releases/releases/tag/android-v0.1.16)
 
-选择 `CubeDesk-Android-0.1.15.apk`。支持 Android 8.0 及以上（arm64-v8a / x86_64），支持横竖屏；连接智能魔方需要蓝牙。手机版不包含开发板控制功能。
+选择 `CubeDesk-Android-0.1.16.apk`。支持 Android 8.0 及以上（arm64-v8a / x86_64），支持横竖屏；连接智能魔方需要蓝牙。手机版不包含开发板控制功能。
 
 已有旧版请直接覆盖安装，包名和签名保持一致；不要先卸载或清除数据。建议更新前在设置里导出备份。本次构建及签名核验完成，未进行新版本手机实机检查；新增协议的验证范围见下表。此前 0.1.13 的旋转锁定修复已由用户安装确认，本次保留该策略。
 
 ## Windows 桌面版下载
 
-[下载 CubeDesk Windows 0.23.0](https://github.com/Jay6668/CubeDesk-Releases/releases/tag/v0.23.0)
+[下载 CubeDesk Windows 0.23.1](https://github.com/Jay6668/CubeDesk-Releases/releases/tag/v0.23.1)
 
-选择 `CubeDesk-0.23.0-Windows-x64.exe`，下载后直接运行。这是单文件应用，没有安装向导。需要 Windows 10/11 64 位和 Microsoft Edge WebView2 Runtime，连接智能魔方时需要蓝牙适配器。
+选择 `CubeDesk-0.23.1-Windows-x64.exe`，下载后直接运行。这是单文件应用，没有安装向导。需要 Windows 10/11 64 位和 Microsoft Edge WebView2 Runtime，连接智能魔方时需要蓝牙适配器。
 
 数据保存在本机。新版沿用原数据目录，建议更新前从设置导出备份。本次已通过隔离数据目录下的封装资源检查，36 项成就素材和训练库完整。
 
@@ -38,11 +38,15 @@ CubeDesk 是一款智能魔方应用，提供 Windows 和 Android 版本，支�
 
 协议实现参考 MIT 许可的 [gan-web-bluetooth](https://github.com/afedotov/gan-web-bluetooth) 和 [smartcube-web-bluetooth](https://github.com/poliva/smartcube-web-bluetooth)，许可随应用保留。
 
-## 更新提醒
+## 国内下载与更新提醒
 
-从本次版本开始，启动后可后台检查新版，电脑和安卓使用各自的版本信息。检查失败不影响离线使用，可以在设置中关闭或手动检查。进行中的复原和弹窗会推迟提醒；用户自行确认下载和安装，不会静默更新。不上传成绩、设备地址或个人资料。
+国内下载：[夸克网盘](https://pan.quark.cn/s/88e2650d3fa8)，提取码 **4bdt**。
 
-更早的旧版本没有更新检查能力，需要先手动安装本次版本一次。
+当前版本：Windows **0.23.1**、Android **0.1.16**（versionCode 17）。进入 `10.17 更新：国内更新支持（安卓0.1.16 电脑0.23.1）` 文件夹，按平台选择安装包；夸克是否要求登录或客户端，以其页面提示为准。
+
+新版启动后可在后台检查更新，优先读取 [Gitee 公开版本信息](https://gitee.com/jiuzhijin/cubedesk-releases)，GitHub 作为备用源。设置中可以关闭自动检查、手动检查，或直接打开夸克下载入口。检查失败不影响离线使用；检查过程不上传成绩、设备地址或个人资料。复原或已有弹窗时，自动提醒会推迟展示。下载和安装仍需用户确认，不会静默安装。
+
+较早版本需要先手动安装本次版本，才能使用国内更新源。Android 请使用同包名、同签名安装包**覆盖安装**，不要先卸载或清除数据；建议先从设置导出备份。Windows 沿用原数据目录。本次构建与签名检查已完成，未进行新版本手机实机验收；多品牌智能魔方支持仍属于实验性适配。
 
 ## 数据分析
 
