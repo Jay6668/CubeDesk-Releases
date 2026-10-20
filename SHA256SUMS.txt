@@ -1,2 +1,2 @@
-04cf4ddde6c38051d16f88c2a95589c08bb632722f7361f0dfa5cc67481cc345  CubeDesk-0.23.1-Windows-x64.exe
-10cf9cd92750f41b14f67c43c8908a1be441ffa45bd9cc98bbe18189e670f943  CubeDesk-Android-0.1.16.apk
+360588b9839f67c8048a368cb746c6154fdb75eb007aa0ddaf031b878dd35aeb  CubeDesk-Mobile-0.2.0-preview.15.apk
+ba30c83d91cc26fc92a6d3e91c4d66221cb94ef1b8bbad073d59d2dc74682445  CubeDesk-Windows-0.24.0-preview.14.exe

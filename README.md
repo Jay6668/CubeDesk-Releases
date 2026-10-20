@@ -1,22 +1,34 @@
 # CubeDesk
 
-CubeDesk 是一款智能魔方应用，提供 Windows 和 Android 版本，支持竞速、普通计时、CFOP 训练、本地成绩分析与可定制的成就特效。核心功能和内置素材支持离线使用。
+CubeDesk 是一款 Windows / Android 智能魔方训练应用，提供竞速计时、普通魔方计时、CFOP训练、本地成绩分析与可定制成就。核心训练与数据在本地运行，支持离线使用；安卓版支持横竖屏。
 
-## Android 手机版下载
+## 最新正式版 · 2026-10-20
 
-[下载 CubeDesk Android 0.1.16](https://github.com/Jay6668/CubeDesk-Releases/releases/tag/android-v0.1.16)
+作者已验收本次双端版本，并将原安装包提升为正式发行版。保留内部构建标识，文件与验收版完全一致；GitHub发行状态为正式版。
 
-选择 `CubeDesk-Android-0.1.16.apk`。支持 Android 8.0 及以上（arm64-v8a / x86_64），支持横竖屏；连接智能魔方需要蓝牙。手机版不包含开发板控制功能。
+| 平台 | 正式发行版与构建标识 | 下载 |
+| --- | --- | --- |
+| Android | 0.2.0（`0.2.0-preview.15`，versionCode37） | [下载安卓版](https://github.com/Jay6668/CubeDesk-Releases/releases/download/android-v0.2.0-preview.15/CubeDesk-Mobile-0.2.0-preview.15.apk) · [发行说明](https://github.com/Jay6668/CubeDesk-Releases/releases/tag/android-v0.2.0-preview.15) |
+| Windows | 0.24.0（`0.24.0-preview.14`） | [下载电脑版](https://github.com/Jay6668/CubeDesk-Releases/releases/download/v0.24.0-preview.14/CubeDesk-Windows-0.24.0-preview.14.exe) · [发行说明](https://github.com/Jay6668/CubeDesk-Releases/releases/tag/v0.24.0-preview.14) |
 
-已有旧版请直接覆盖安装，包名和签名保持一致；不要先卸载或清除数据。建议更新前在设置里导出备份。本次构建及签名核验完成，未进行新版本手机实机检查；新增协议的验证范围见下表。此前 0.1.13 的旋转锁定修复已由用户安装确认，本次保留该策略。
+### 国内下载
 
-## Windows 桌面版下载
+[夸克原分享](https://pan.quark.cn/s/88e2650d3fa8)，提取码 **4bdt**。打开 **10.20 正式版更新（安卓0.2.0 电脑0.24.0）**，按手机或电脑选择文件。两份安装包已包含运行所需内置成就素材，无需另找桌面素材文件。
 
-[下载 CubeDesk Windows 0.23.1](https://github.com/Jay6668/CubeDesk-Releases/releases/tag/v0.23.1)
+### 本次更新
 
-选择 `CubeDesk-0.23.1-Windows-x64.exe`，下载后直接运行。这是单文件应用，没有安装向导。需要 Windows 10/11 64 位和 Microsoft Edge WebView2 Runtime，连接智能魔方时需要蓝牙适配器。
+- 修复连续错步撤回和模型黑影，优化快转跟随。
+- 新增、精修原创皮肤与主题、头像框，统一折方Logo及首页品牌排版。
+- 压紧横竖屏页面、连接与设置面板，调整模型和成绩显示比例。
+- 成绩卡绑定主题，修复切屏字号异常，保留两位小数、步数、TPS与分析入口。
+- 内置成就精简为24款；可添加15秒以内视频、图片及展示时长，可删除自己的自定义素材。内置素材不提供单独删除，空间管理页面暂不开放。
 
-数据保存在本机。新版沿用原数据目录，建议更新前从设置导出备份。本次已通过隔离数据目录下的封装资源检查，36 项成就素材和训练库完整。
+### 安装与更新
+
+- Android支持8.0及以上（arm64-v8a / x86_64），仅需智能魔方蓝牙连接，不含开发板控制功能。请同包名、同签名**覆盖安装**，不要先卸载或清除数据；建议更新前从设置导出备份。
+- Windows需10/11 64位与Edge WebView2 Runtime。关闭旧版后运行新版EXE，沿用原数据目录；建议更新前导出备份。
+- 设置中的更新检查优先读取[Gitee国内版本源](https://gitee.com/jiuzhijin/cubedesk-releases)，GitHub为备用。检查可关闭，失败不影响离线使用；下载和安装由用户确认。
+- 新公式深度改进、独立下载网站与新型号实物验证留待后续，不把协议接入描述成所有魔方都已实测。
 
 ## 多品牌三阶智能魔方：实验性适配
 
@@ -38,15 +50,6 @@ CubeDesk 是一款智能魔方应用，提供 Windows 和 Android 版本，支�
 
 协议实现参考 MIT 许可的 [gan-web-bluetooth](https://github.com/afedotov/gan-web-bluetooth) 和 [smartcube-web-bluetooth](https://github.com/poliva/smartcube-web-bluetooth)，许可随应用保留。
 
-## 国内下载与更新提醒
-
-国内下载：[夸克网盘](https://pan.quark.cn/s/88e2650d3fa8)，提取码 **4bdt**。
-
-当前版本：Windows **0.23.1**、Android **0.1.16**（versionCode 17）。进入 `10.17 更新：国内更新支持（安卓0.1.16 电脑0.23.1）` 文件夹，按平台选择安装包；夸克是否要求登录或客户端，以其页面提示为准。
-
-新版启动后可在后台检查更新，优先读取 [Gitee 公开版本信息](https://gitee.com/jiuzhijin/cubedesk-releases)，GitHub 作为备用源。设置中可以关闭自动检查、手动检查，或直接打开夸克下载入口。检查失败不影响离线使用；检查过程不上传成绩、设备地址或个人资料。复原或已有弹窗时，自动提醒会推迟展示。下载和安装仍需用户确认，不会静默安装。
-
-较早版本需要先手动安装本次版本，才能使用国内更新源。Android 请使用同包名、同签名安装包**覆盖安装**，不要先卸载或清除数据；建议先从设置导出备份。Windows 沿用原数据目录。本次构建与签名检查已完成，未进行新版本手机实机验收；多品牌智能魔方支持仍属于实验性适配。
 
 ## 数据分析
 
@@ -57,8 +60,6 @@ CubeDesk 是一款智能魔方应用，提供 Windows 和 Android 版本，支�
 ![成绩趋势](screenshots/analysis-trend.png)
 ![稳定性与成绩分布](screenshots/analysis-stability.png)
 
-## 下载校验
+## 下载校验与源码
 
-每个版本附有 `SHA256SUMS.txt`，可用于核对文件完整性。
-
-这个公开仓库用于发布应用下载和说明。源码保存在独立的私有仓库。
+发行附件及仓库提供`SHA256SUMS.txt`，可核对文件完整性。此公开仓库只提供下载、说明、版本信息和示例截图；源码保存在独立私有仓库，下载包不包含个人成绩或配置。

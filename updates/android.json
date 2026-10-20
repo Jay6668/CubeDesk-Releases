@@ -1,21 +1,24 @@
 {
   "schema": 1,
   "platform": "android",
-  "version": "0.1.16",
-  "tag": "android-v0.1.16",
-  "downloadUrl": "https://github.com/Jay6668/CubeDesk-Releases/releases/download/android-v0.1.16/CubeDesk-Android-0.1.16.apk",
-  "sha256": "10cf9cd92750f41b14f67c43c8908a1be441ffa45bd9cc98bbe18189e670f943",
-  "size": 118909918,
+  "version": "0.2.0-preview.15",
+  "tag": "android-v0.2.0-preview.15",
+  "downloadUrl": "https://github.com/Jay6668/CubeDesk-Releases/releases/download/android-v0.2.0-preview.15/CubeDesk-Mobile-0.2.0-preview.15.apk",
+  "sha256": "360588b9839f67c8048a368cb746c6154fdb75eb007aa0ddaf031b878dd35aeb",
+  "size": 90905069,
   "notes": [
-    "新增国内版本源优先和 GitHub 备用，改善国内网络下的更新检查。",
-    "设置中新增夸克手动下载入口、提取码和文件名说明；离线功能仍可正常使用。",
-    "保留上一版多品牌智能魔方实验性支持；本次未进行手机或新型号实物验收。"
+    "修复快速转动时模型黑影及连续错步撤回，优化模型跟随与打乱体验。",
+    "新增与精修原创魔方皮肤、四种主题和头像框，统一折方品牌图标。",
+    "优化手机横竖屏的信息密度、连接页、设置、成就页和首页品牌对齐。",
+    "成绩卡按主题展示，缩紧尺寸、修复切屏字号，保留两位小数与成绩分析。",
+    "精简为24款内置成就素材；支持自定义图片/15秒内视频、展示时长与删除自定义素材。",
+    "沿用国内版本源优先与GitHub备用检查；核心功能可离线使用，多品牌协议仍以真实型号验收为准。"
   ],
-  "versionCode": 17,
+  "versionCode": 37,
   "domesticDownload": {
     "url": "https://pan.quark.cn/s/88e2650d3fa8",
     "code": "4bdt",
-    "filename": "CubeDesk-Android-0.1.16.apk",
-    "folder": "10.17 更新：国内更新支持（安卓0.1.16 电脑0.23.1） / 手机版（安卓)"
+    "filename": "CubeDesk-Mobile-0.2.0-preview.15.apk",
+    "folder": "10.20 正式版更新（安卓0.2.0 电脑0.24.0）"
   }
 }
