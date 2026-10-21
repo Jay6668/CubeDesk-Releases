@@ -1,15 +1,14 @@
 {
   "schema": 1,
   "platform": "android",
-  "version": "1.0.0",
-  "tag": "v1.0.0",
-  "downloadUrl": "https://github.com/Jay6668/CubeDesk-Releases/releases/download/v1.0.0/CubeDesk-Android-1.0.0.apk",
-  "sha256": "71831e508f75c718335ec0b440e4ac36196f7f7c52d42c611bdea5345129a80e",
-  "size": 91253012,
+  "version": "1.0.1",
+  "tag": "v1.0.1",
+  "downloadUrl": "https://github.com/Jay6668/CubeDesk-Releases/releases/download/v1.0.1/CubeDesk-Android-1.0.1.apk",
+  "sha256": "14f9efc5df45539deaed4db5c08d9d6a5aeb01f950b7c5cf40537fea9c42495f",
+  "size": 94435343,
   "notes": [
-    "双端版本号统一为1.0.0，保留本地成绩与设置。",
-    "重做果冻材质，以琉光珐琅替换星夜陶作，保留原四个主题。",
-    "设置底部新增自愿支持作者入口与玖之尽随笔公众号。"
+    "恢复火舞视频及原声，25款内置素材。",
+    "沿用原签名，可直接覆盖安装，保留已有规则、成绩与自定义素材。"
   ],
-  "versionCode": 39
+  "versionCode": 40
 }

@@ -2,27 +2,24 @@
 
 CubeDesk 是一款 Windows / Android 智能魔方训练应用，提供竞速计时、普通魔方计时、CFOP训练、本地成绩分析与可定制成就。核心训练与数据在本地运行，支持离线使用；安卓版支持横竖屏。
 
-## 最新正式版 · 1.0.0 · 2026-10-21
-
-Windows / Android 统一为1.0.0；附件即作者验收的原包。
+## 最新正式版 · 1.0.1 · 2026-10-21
 
 |平台|版本|下载|
 |---|---|---|
-|Android|1.0.0，versionCode39|[下载安卓版](https://github.com/Jay6668/CubeDesk-Releases/releases/download/v1.0.0/CubeDesk-Android-1.0.0.apk)|
-|Windows|1.0.0|[下载电脑版](https://github.com/Jay6668/CubeDesk-Releases/releases/download/v1.0.0/CubeDesk-Windows-1.0.0.exe)|
+|Android|1.0.1，versionCode40|[下载安卓版](https://github.com/Jay6668/CubeDesk-Releases/releases/download/v1.0.1/CubeDesk-Android-1.0.1.apk)|
+|Windows|1.0.1|[下载电脑版](https://github.com/Jay6668/CubeDesk-Releases/releases/download/v1.0.1/CubeDesk-Windows-1.0.1.exe)|
 
-[本次发行说明](https://github.com/Jay6668/CubeDesk-Releases/releases/tag/v1.0.0)
+[本次发行说明](https://github.com/Jay6668/CubeDesk-Releases/releases/tag/v1.0.1)
 
 ### 国内下载
 
-[夸克原分享](https://pan.quark.cn/s/88e2650d3fa8)，提取码 **4bdt**。1.0.0由作者手动同步；若网盘仍显示旧包，请使用上方GitHub新版入口。国内更新提醒待网盘新包就绪后同步。
+[夸克分享](https://pan.quark.cn/s/88e2650d3fa8)，提取码 **4bdt**，由作者另行维护。请按文件名选择对应平台与版本；GitHub下载以上方链接为准。
 
 ### 本次更新
 
-- 双端版本号统一为1.0.0，沿用原包名、签名和本地资料目录。
-- 果冻皮肤重配柔和颜色、调整平面倒角和半透厚边；星夜陶作替换为「琉光珐琅」。
-- 四个主题保持原设计，设置底部增加“支持作者”，点击后查看自愿支持说明、收款码和玖之尽随笔公众号。
-- 原有竞速、分析、训练、成绩卡和24款内置成就保留；自定义成就仍可使用图片或15秒以内视频。
+- 电脑版首页移除中央重复大标题、英文和说明小字，设置移除旧开发板联动说明，原有功能保留。
+- 两端恢复“火舞”原片及音轨，25款内置素材按等级编号；原有规则绑定、历史记录、自定义素材保留。
+- 保留已验收的果冻、琉光珐琅、四个主题和自愿支持作者入口。
 
 ### 安装与更新
 

@@ -1,14 +1,13 @@
 {
   "schema": 1,
   "platform": "windows",
-  "version": "1.0.0",
-  "tag": "v1.0.0",
-  "downloadUrl": "https://github.com/Jay6668/CubeDesk-Releases/releases/download/v1.0.0/CubeDesk-Windows-1.0.0.exe",
-  "sha256": "80f6dc0f0ddf9f4b4c12cf0228b94d11047d8c4436ace21b888f03bb5b31dc20",
-  "size": 70767244,
+  "version": "1.0.1",
+  "tag": "v1.0.1",
+  "downloadUrl": "https://github.com/Jay6668/CubeDesk-Releases/releases/download/v1.0.1/CubeDesk-Windows-1.0.1.exe",
+  "sha256": "5e49bd8284517072d65996996445f6734e737f97311301739be9a2bf54a30d1e",
+  "size": 73954577,
   "notes": [
-    "双端版本号统一为1.0.0，保留本地成绩与设置。",
-    "重做果冻材质，以琉光珐琅替换星夜陶作，保留原四个主题。",
-    "设置底部新增自愿支持作者入口与玖之尽随笔公众号。"
+    "电脑版首页与设置清理多余说明，保留原有功能。",
+    "恢复火舞视频及原声，25款内置素材；已有规则绑定与记录保留。"
   ]
 }
