@@ -1,24 +1,15 @@
 {
   "schema": 1,
   "platform": "android",
-  "version": "0.2.0-preview.15",
-  "tag": "android-v0.2.0-preview.15",
-  "downloadUrl": "https://github.com/Jay6668/CubeDesk-Releases/releases/download/android-v0.2.0-preview.15/CubeDesk-Mobile-0.2.0-preview.15.apk",
-  "sha256": "360588b9839f67c8048a368cb746c6154fdb75eb007aa0ddaf031b878dd35aeb",
-  "size": 90905069,
+  "version": "1.0.0",
+  "tag": "v1.0.0",
+  "downloadUrl": "https://github.com/Jay6668/CubeDesk-Releases/releases/download/v1.0.0/CubeDesk-Android-1.0.0.apk",
+  "sha256": "71831e508f75c718335ec0b440e4ac36196f7f7c52d42c611bdea5345129a80e",
+  "size": 91253012,
   "notes": [
-    "修复快速转动时模型黑影及连续错步撤回，优化模型跟随与打乱体验。",
-    "新增与精修原创魔方皮肤、四种主题和头像框，统一折方品牌图标。",
-    "优化手机横竖屏的信息密度、连接页、设置、成就页和首页品牌对齐。",
-    "成绩卡按主题展示，缩紧尺寸、修复切屏字号，保留两位小数与成绩分析。",
-    "精简为24款内置成就素材；支持自定义图片/15秒内视频、展示时长与删除自定义素材。",
-    "沿用国内版本源优先与GitHub备用检查；核心功能可离线使用，多品牌协议仍以真实型号验收为准。"
+    "双端版本号统一为1.0.0，保留本地成绩与设置。",
+    "重做果冻材质，以琉光珐琅替换星夜陶作，保留原四个主题。",
+    "设置底部新增自愿支持作者入口与玖之尽随笔公众号。"
   ],
-  "versionCode": 37,
-  "domesticDownload": {
-    "url": "https://pan.quark.cn/s/88e2650d3fa8",
-    "code": "4bdt",
-    "filename": "CubeDesk-Mobile-0.2.0-preview.15.apk",
-    "folder": "10.20 正式版更新（安卓0.2.0 电脑0.24.0）"
-  }
+  "versionCode": 39
 }

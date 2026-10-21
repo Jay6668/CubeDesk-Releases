@@ -1,23 +1,14 @@
 {
   "schema": 1,
   "platform": "windows",
-  "version": "0.24.0-preview.14",
-  "tag": "v0.24.0-preview.14",
-  "downloadUrl": "https://github.com/Jay6668/CubeDesk-Releases/releases/download/v0.24.0-preview.14/CubeDesk-Windows-0.24.0-preview.14.exe",
-  "sha256": "ba30c83d91cc26fc92a6d3e91c4d66221cb94ef1b8bbad073d59d2dc74682445",
-  "size": 70426471,
+  "version": "1.0.0",
+  "tag": "v1.0.0",
+  "downloadUrl": "https://github.com/Jay6668/CubeDesk-Releases/releases/download/v1.0.0/CubeDesk-Windows-1.0.0.exe",
+  "sha256": "80f6dc0f0ddf9f4b4c12cf0228b94d11047d8c4436ace21b888f03bb5b31dc20",
+  "size": 70767244,
   "notes": [
-    "修复快速转动时模型黑影及连续错步撤回，优化模型跟随与打乱体验。",
-    "新增与精修原创魔方皮肤、四种主题和头像框，统一折方品牌图标。",
-    "优化手机横竖屏的信息密度、连接页、设置、成就页和首页品牌对齐。",
-    "成绩卡按主题展示，缩紧尺寸、修复切屏字号，保留两位小数与成绩分析。",
-    "精简为24款内置成就素材；支持自定义图片/15秒内视频、展示时长与删除自定义素材。",
-    "沿用国内版本源优先与GitHub备用检查；核心功能可离线使用，多品牌协议仍以真实型号验收为准。"
-  ],
-  "domesticDownload": {
-    "url": "https://pan.quark.cn/s/88e2650d3fa8",
-    "code": "4bdt",
-    "filename": "CubeDesk-Windows-0.24.0-preview.14.exe",
-    "folder": "10.20 正式版更新（安卓0.2.0 电脑0.24.0）"
-  }
+    "双端版本号统一为1.0.0，保留本地成绩与设置。",
+    "重做果冻材质，以琉光珐琅替换星夜陶作，保留原四个主题。",
+    "设置底部新增自愿支持作者入口与玖之尽随笔公众号。"
+  ]
 }

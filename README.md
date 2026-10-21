@@ -2,26 +2,27 @@
 
 CubeDesk 是一款 Windows / Android 智能魔方训练应用，提供竞速计时、普通魔方计时、CFOP训练、本地成绩分析与可定制成就。核心训练与数据在本地运行，支持离线使用；安卓版支持横竖屏。
 
-## 最新正式版 · 2026-10-20
+## 最新正式版 · 1.0.0 · 2026-10-21
 
-作者已验收本次双端版本，并将原安装包提升为正式发行版。保留内部构建标识，文件与验收版完全一致；GitHub发行状态为正式版。
+Windows / Android 统一为1.0.0；附件即作者验收的原包。
 
-| 平台 | 正式发行版与构建标识 | 下载 |
-| --- | --- | --- |
-| Android | 0.2.0（`0.2.0-preview.15`，versionCode37） | [下载安卓版](https://github.com/Jay6668/CubeDesk-Releases/releases/download/android-v0.2.0-preview.15/CubeDesk-Mobile-0.2.0-preview.15.apk) · [发行说明](https://github.com/Jay6668/CubeDesk-Releases/releases/tag/android-v0.2.0-preview.15) |
-| Windows | 0.24.0（`0.24.0-preview.14`） | [下载电脑版](https://github.com/Jay6668/CubeDesk-Releases/releases/download/v0.24.0-preview.14/CubeDesk-Windows-0.24.0-preview.14.exe) · [发行说明](https://github.com/Jay6668/CubeDesk-Releases/releases/tag/v0.24.0-preview.14) |
+|平台|版本|下载|
+|---|---|---|
+|Android|1.0.0，versionCode39|[下载安卓版](https://github.com/Jay6668/CubeDesk-Releases/releases/download/v1.0.0/CubeDesk-Android-1.0.0.apk)|
+|Windows|1.0.0|[下载电脑版](https://github.com/Jay6668/CubeDesk-Releases/releases/download/v1.0.0/CubeDesk-Windows-1.0.0.exe)|
+
+[本次发行说明](https://github.com/Jay6668/CubeDesk-Releases/releases/tag/v1.0.0)
 
 ### 国内下载
 
-[夸克原分享](https://pan.quark.cn/s/88e2650d3fa8)，提取码 **4bdt**。打开 **10.20 正式版更新（安卓0.2.0 电脑0.24.0）**，按手机或电脑选择文件。两份安装包已包含运行所需内置成就素材，无需另找桌面素材文件。
+[夸克原分享](https://pan.quark.cn/s/88e2650d3fa8)，提取码 **4bdt**。1.0.0由作者手动同步；若网盘仍显示旧包，请使用上方GitHub新版入口。国内更新提醒待网盘新包就绪后同步。
 
 ### 本次更新
 
-- 修复连续错步撤回和模型黑影，优化快转跟随。
-- 新增、精修原创皮肤与主题、头像框，统一折方Logo及首页品牌排版。
-- 压紧横竖屏页面、连接与设置面板，调整模型和成绩显示比例。
-- 成绩卡绑定主题，修复切屏字号异常，保留两位小数、步数、TPS与分析入口。
-- 内置成就精简为24款；可添加15秒以内视频、图片及展示时长，可删除自己的自定义素材。内置素材不提供单独删除，空间管理页面暂不开放。
+- 双端版本号统一为1.0.0，沿用原包名、签名和本地资料目录。
+- 果冻皮肤重配柔和颜色、调整平面倒角和半透厚边；星夜陶作替换为「琉光珐琅」。
+- 四个主题保持原设计，设置底部增加“支持作者”，点击后查看自愿支持说明、收款码和玖之尽随笔公众号。
+- 原有竞速、分析、训练、成绩卡和24款内置成就保留；自定义成就仍可使用图片或15秒以内视频。
 
 ### 安装与更新
 
@@ -30,9 +31,9 @@ CubeDesk 是一款 Windows / Android 智能魔方训练应用，提供竞速计�
 - 设置中的更新检查优先读取[Gitee国内版本源](https://gitee.com/jiuzhijin/cubedesk-releases)，GitHub为备用。检查可关闭，失败不影响离线使用；下载和安装由用户确认。
 - 新公式深度改进、独立下载网站与新型号实物验证留待后续，不把协议接入描述成所有魔方都已实测。
 
-## 多品牌三阶智能魔方：实验性适配
+## 多品牌三阶智能魔方：既有实验性适配范围
 
-| 协议 / 设备系列 | 本次验证范围 |
+| 协议 / 设备系列 | 既有验证范围 |
 | --- | --- |
 | MoYu32 / 威龙 V10 AI | 保留原有驱动；本轮未重新进行实物验收 |
 | GAN Gen1 / 356i | 合成报文、加密与读取流程离线检查 |
@@ -62,4 +63,4 @@ CubeDesk 是一款 Windows / Android 智能魔方训练应用，提供竞速计�
 
 ## 下载校验与源码
 
-发行附件及仓库提供`SHA256SUMS.txt`，可核对文件完整性。此公开仓库只提供下载、说明、版本信息和示例截图；源码保存在独立私有仓库，下载包不包含个人成绩或配置。
+发行说明提供各包SHA-256，仓库保留`SHA256SUMS.txt`，可核对文件完整性。此公开仓库只提供下载、说明、版本信息和示例截图；源码保存在独立私有仓库，下载包不包含个人成绩或配置。
