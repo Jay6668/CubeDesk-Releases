@@ -2,28 +2,26 @@
 
 CubeDesk 是一款 Windows / Android 智能魔方训练应用，提供竞速计时、普通魔方计时、CFOP训练、本地成绩分析与可定制成就。核心训练与数据在本地运行，支持离线使用；安卓版支持横竖屏。
 
-## 最新正式版 · 1.0.2 · 2026-10-23
+## 最新正式版 · 1.0.3 · 2026-10-23
 
 |平台|版本|下载|
 |---|---|---|
-|Android|1.0.2，versionCode44|[下载安卓版](https://github.com/Jay6668/CubeDesk-Releases/releases/download/v1.0.2/CubeDesk-Android-1.0.2.apk)|
-|Windows|1.0.2|[下载电脑版](https://github.com/Jay6668/CubeDesk-Releases/releases/download/v1.0.2/CubeDesk-Windows-1.0.2.exe)|
+|Android|1.0.3，versionCode48|[下载安卓版](https://github.com/Jay6668/CubeDesk-Releases/releases/download/v1.0.3/CubeDesk-Android-1.0.3.apk)|
+|Windows|1.0.3|[下载电脑版](https://github.com/Jay6668/CubeDesk-Releases/releases/download/v1.0.3/CubeDesk-Windows-1.0.3.exe)|
 
-[本次发行说明](https://github.com/Jay6668/CubeDesk-Releases/releases/tag/v1.0.2)
+[本次发行说明](https://github.com/Jay6668/CubeDesk-Releases/releases/tag/v1.0.3)
 
 ### 国内下载
 
-[夸克分享](https://pan.quark.cn/s/88e2650d3fa8)，提取码 **4bdt**，由作者另行维护。请按文件名确认对应平台与版本；GitHub下载以上方链接为准。
+[夸克分享](https://pan.quark.cn/s/88e2650d3fa8)，提取码 **4bdt**，由作者另行维护；请按文件名确认对应平台和版本。
 
 ### 本次更新
 
-- 新增樱雾月冠、海盐铃兰、莲塘清影三款皮肤和「莲塘白鹭」主题，移除琥珀、霁青瓷。
-- 重做五款随主题切换的成绩卡，放大步数/TPS，调整电脑和手机横竖屏尺寸。
-- 完善GAN、奇艺等既有蓝牙协议处理；设备中心更紧凑，增加独立陀螺仪设置和白上绿前校准。
-- 加强单局分析与历史对照，F1–F4分别显示TPS，TPS保留一位小数；设置可切换CFOP/桥式分析。
-- 优化练习记录、个人主页及设置的信息密度；个人纪录改为翻面奖牌，生涯记录改为分页里程碑。
-- 修复快速复原后多转一步不停表、成就视频关闭仍有声音、训练切到设备页模型消失等问题。
-- 修复完整备份导出/导入容量限制不一致和重复生成；统一100MiB完整备份上限，加固本机接口边界。
+- 成绩卡新增极简、竞速、仪表、画卷、杂志、趣味六种独立样式，均随五套应用主题适配配色与背景。
+- 设置中的成绩卡选项压缩为一行，下拉选择后点击“预览”弹出浅色示例，不占用设置页大面积空间。
+- 修复猫主题画卷/趣味卡片的猫咪裁切、极简款手机竖屏越界，以及关闭按钮遮住日期或保存状态。
+- 优化墨夜成绩卡的冷墨配色和原创山水背景，保持真实成绩卡与应用主题一致。
+- 补齐长用时、+2、DNF和旋转后的数字适配，保留原成绩、分析入口及继续练习操作。
 
 ### 安装与更新
 
