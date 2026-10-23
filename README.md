@@ -2,24 +2,28 @@
 
 CubeDesk 是一款 Windows / Android 智能魔方训练应用，提供竞速计时、普通魔方计时、CFOP训练、本地成绩分析与可定制成就。核心训练与数据在本地运行，支持离线使用；安卓版支持横竖屏。
 
-## 最新正式版 · 1.0.1 · 2026-10-21
+## 最新正式版 · 1.0.2 · 2026-10-23
 
 |平台|版本|下载|
 |---|---|---|
-|Android|1.0.1，versionCode40|[下载安卓版](https://github.com/Jay6668/CubeDesk-Releases/releases/download/v1.0.1/CubeDesk-Android-1.0.1.apk)|
-|Windows|1.0.1|[下载电脑版](https://github.com/Jay6668/CubeDesk-Releases/releases/download/v1.0.1/CubeDesk-Windows-1.0.1.exe)|
+|Android|1.0.2，versionCode44|[下载安卓版](https://github.com/Jay6668/CubeDesk-Releases/releases/download/v1.0.2/CubeDesk-Android-1.0.2.apk)|
+|Windows|1.0.2|[下载电脑版](https://github.com/Jay6668/CubeDesk-Releases/releases/download/v1.0.2/CubeDesk-Windows-1.0.2.exe)|
 
-[本次发行说明](https://github.com/Jay6668/CubeDesk-Releases/releases/tag/v1.0.1)
+[本次发行说明](https://github.com/Jay6668/CubeDesk-Releases/releases/tag/v1.0.2)
 
 ### 国内下载
 
-[夸克分享](https://pan.quark.cn/s/88e2650d3fa8)，提取码 **4bdt**，由作者另行维护。请按文件名选择对应平台与版本；GitHub下载以上方链接为准。
+[夸克分享](https://pan.quark.cn/s/88e2650d3fa8)，提取码 **4bdt**，由作者另行维护。请按文件名确认对应平台与版本；GitHub下载以上方链接为准。
 
 ### 本次更新
 
-- 电脑版首页移除中央重复大标题、英文和说明小字，设置移除旧开发板联动说明，原有功能保留。
-- 两端恢复“火舞”原片及音轨，25款内置素材按等级编号；原有规则绑定、历史记录、自定义素材保留。
-- 保留已验收的果冻、琉光珐琅、四个主题和自愿支持作者入口。
+- 新增樱雾月冠、海盐铃兰、莲塘清影三款皮肤和「莲塘白鹭」主题，移除琥珀、霁青瓷。
+- 重做五款随主题切换的成绩卡，放大步数/TPS，调整电脑和手机横竖屏尺寸。
+- 完善GAN、奇艺等既有蓝牙协议处理；设备中心更紧凑，增加独立陀螺仪设置和白上绿前校准。
+- 加强单局分析与历史对照，F1–F4分别显示TPS，TPS保留一位小数；设置可切换CFOP/桥式分析。
+- 优化练习记录、个人主页及设置的信息密度；个人纪录改为翻面奖牌，生涯记录改为分页里程碑。
+- 修复快速复原后多转一步不停表、成就视频关闭仍有声音、训练切到设备页模型消失等问题。
+- 修复完整备份导出/导入容量限制不一致和重复生成；统一100MiB完整备份上限，加固本机接口边界。
 
 ### 安装与更新
 
@@ -28,28 +32,25 @@ CubeDesk 是一款 Windows / Android 智能魔方训练应用，提供竞速计�
 - 设置中的更新检查优先读取[Gitee国内版本源](https://gitee.com/jiuzhijin/cubedesk-releases)，GitHub为备用。检查可关闭，失败不影响离线使用；下载和安装由用户确认。
 - 新公式深度改进、独立下载网站与新型号实物验证留待后续，不把协议接入描述成所有魔方都已实测。
 
-## 多品牌三阶智能魔方：既有实验性适配范围
+## 已接入的智能三阶协议
 
-| 协议 / 设备系列 | 既有验证范围 |
-| --- | --- |
-| MoYu32 / 威龙 V10 AI | 保留原有驱动；本轮未重新进行实物验收 |
-| GAN Gen1 / 356i | 合成报文、加密与读取流程离线检查 |
-| GAN Gen2 | 离线检查；GAN12ui、GAN12ui FreePlay、GANic 公开抓包回放 |
-| GAN Gen3 | 合成报文与连接生命周期离线检查 |
-| GAN Gen4 | 离线检查；GAN i4 公开抓包回放 |
-| 奇艺智能三阶 / Tornado V4 | 离线检查；奇艺、Tornado V4 公开抓包回放 |
-| GiiKER / Mi Smart Cube | 离线检查；GiiKER i3SE 公开抓包回放 |
-| GoCube / Rubik’s Connected | 离线检查；两类设备公开抓包回放 |
-| MoYu MHC v1 | 合成报文、多通知通道与状态读取流程离线检查 |
+|品牌 / 系列|协议范围|
+|---|---|
+|魔域 MoYu|MoYu32（含威龙 V10 AI）、MHC v1|
+|GAN|Gen1 / Gen2 / Gen3 / Gen4（含356i、GAN12ui、FreePlay、GANic、i4等对应系列）|
+|奇艺 / X-Man|奇艺智能三阶、Tornado V4对应协议|
+|GiiKER / Mi|GiiKER、Mi Smart Cube对应协议|
+|GoCube / Rubik's|GoCube、Rubik's Connected|
 
-新增协议尚未有对应型号的实际连接验收。同品牌、不同固件不保证通用；设备按实际 GATT 服务识别。部分型号可能需补充 MAC，电量与历史能力因设备而异。MHC 在读不到面状态时，需要先手工复原并同步。此轮不支持 GAN 251、计客 i2 等二阶设备。
+其他型号建议尝试扫描，设备按实际GATT服务识别；同品牌不同固件不保证通用，部分型号需要MAC。电量、姿态和历史能力取决于设备。本轮没有新增型号的实机验收，不将协议接入描述为全型号实测。当前不支持二阶设备。
 
-验证合计：35 项离线检查；9 套公开抓包共 1,299 个数据包、280 步转动与原记录一致。抓包回放不能替代真实蓝牙连接测试。
+设备中心提供独立陀螺仪设置。开启姿态跟随且收到有效姿态时，复原同步提示摆成白上绿前再校准；关闭跟随或无姿态能力时保留普通同步流程。
 
-协议实现参考 MIT 许可的 [gan-web-bluetooth](https://github.com/afedotov/gan-web-bluetooth) 和 [smartcube-web-bluetooth](https://github.com/poliva/smartcube-web-bluetooth)，许可随应用保留。
-
+协议实现参考MIT许可的[gan-web-bluetooth](https://github.com/afedotov/gan-web-bluetooth)和[smartcube-web-bluetooth](https://github.com/poliva/smartcube-web-bluetooth)，许可随应用保留。
 
 ## 数据分析
+
+单次分析可在设置中切换CFOP或Roux桥式；分段TPS保留一位小数，建议结合自己的历史记录，不把F2L占时最长直接视为短板。
 
 成绩趋势、稳定性、转动效率、练习记录四个视角，配合折线图、数量柱状图、四分位范围、散点图、练习日历和分页记录；支持今天、近 30 天、近 3 个月等时间范围。
 

@@ -1,13 +1,17 @@
 {
   "schema": 1,
   "platform": "windows",
-  "version": "1.0.1",
-  "tag": "v1.0.1",
-  "downloadUrl": "https://github.com/Jay6668/CubeDesk-Releases/releases/download/v1.0.1/CubeDesk-Windows-1.0.1.exe",
-  "sha256": "5e49bd8284517072d65996996445f6734e737f97311301739be9a2bf54a30d1e",
-  "size": 73954577,
+  "version": "1.0.2",
+  "tag": "v1.0.2",
+  "downloadUrl": "https://github.com/Jay6668/CubeDesk-Releases/releases/download/v1.0.2/CubeDesk-Windows-1.0.2.exe",
+  "sha256": "178d08478342776796496e3852e218ffa6084aed5338efee850f65448a9f6a3e",
+  "size": 79877082,
   "notes": [
-    "电脑版首页与设置清理多余说明，保留原有功能。",
-    "恢复火舞视频及原声，25款内置素材；已有规则绑定与记录保留。"
+    "新增樱雾月冠、海盐铃兰、莲塘清影三款皮肤和「莲塘白鹭」主题，移除琥珀、霁青瓷。",
+    "重做五款随主题切换的成绩卡，放大步数/TPS，调整电脑和手机横竖屏尺寸。",
+    "完善GAN、奇艺等既有蓝牙协议处理；设备中心更紧凑，增加独立陀螺仪设置和白上绿前校准。",
+    "加强单局分析与历史对照，F1–F4分别显示TPS，TPS保留一位小数；设置可切换CFOP/桥式分析。",
+    "优化练习记录、个人主页及设置的信息密度；个人纪录改为翻面奖牌，生涯记录改为分页里程碑。",
+    "修复快速复原后多转一步不停表、成就视频关闭仍有声音、训练切到设备页模型消失等问题。"
   ]
 }
